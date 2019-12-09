@@ -28,5 +28,12 @@ Agregar Comandos de calendario
 14) npm update @types/jquery
 15) npm install --save angular-calendar date-fns@1.30.1
 
+Para errores en node_modules por npm rebuild node-sass
+Intentar con estos comandos:
+1) npm uninstall --save node-sass
+2) npm install --save node-sass
+3) npm rebuild node-sass
+4) npm install node-sass@4.12.0
+
 
  
