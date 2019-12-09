@@ -36,4 +36,14 @@ Intentar con estos comandos:
 4) npm install node-sass@4.12.0
 
 
+ Para errores para Habilitar ejecución de archivos .ps1 en Windows
+ Seguir el links:
+ http://www.blai.blog/2019/05/habilitar-ejecucion-de-archivos-ps1-en.html
+ 
+ Tutorial:
+ 1) Get-ExecutionPolicy -list
+ 2) Set-ExecutionPolicy -Scope LocalMachine unrestricted
+ 3) Set-ExecutionPolicy -Scope CurrentUser unrestricted
+ 4) Get-ExecutionPolicy -list
+ 
  
